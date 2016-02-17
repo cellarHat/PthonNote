@@ -1,0 +1,6 @@
+python
+in Series, if you want take value by key or index
+it will crash when the value is not avalible.
+use 'get' method can replace the result in another value or none, when the value is null
+ex:   x.get(x['dd'],None)
+result:  somevalue (if it's not empty)    ,  None (if it's null)
